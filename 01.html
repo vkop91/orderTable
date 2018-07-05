@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сортировка таблицы</title>
+    <style>
+        th, td {
+            padding: 0.25rem 0.75rem;
+        }
+        td {
+            text-align: right;
+        }
+        .name {
+            text-align: left;
+        }
+    </style>
+    <script src="sorter.js"></script>
+</head>
+<body>
+<table id="tableView">
+    <thead>
+        <tr>
+            <th data-type="integer" data-column="number">№</th>
+            <th data-type="date" data-column="date">Дата</th>
+            <th data-type="text" data-column="name">Имя</th>
+            <th data-type="decimal" data-column="sum">Сумма</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+</body>
+</html>
